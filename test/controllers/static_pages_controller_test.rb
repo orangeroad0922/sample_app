@@ -35,4 +35,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "Contact | #{@base_title}"
   end
+
+  test "should get next" do
+    get static_pages_next_url
+    assert_response :success
+    assert_select "title", "Next | #{@base_title}"
+  end
 end

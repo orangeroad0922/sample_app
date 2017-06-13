@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* routes、コントローラ、ビューの流れ再確認。
 
-Things you may want to cover:
+* リファクタリング（共通部分の集約）
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* まずテストを書く。落ちる。実装する。通る。
+デグレ抑止、妥当な改修をするための指標。
+（事前に落としておかないと、実装後にテストが通ってもそこが原因かが分からない）

@@ -11,3 +11,7 @@
 * トピックブランチの作成、masterへのマージ。
 
 * minitest reporterによる色付け、Guardによる変更検知時の自動的なテスト実行。
+
+* rails consoleでの実行
+
+* module ApplicationHelperをViewで使う（view_contextを利用すればControllerからも呼べる）

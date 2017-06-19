@@ -15,3 +15,10 @@
 * rails consoleでの実行
 
 * module ApplicationHelperをViewで使う（view_contextを利用すればControllerからも呼べる）
+
+* Classの定義、組み込みクラスも拡張できる。
+
+* attr_accessor は setter / getter を用意してくれる。
+
+* initialize メソッドはコンストラクタ。newされた時に呼び出される。
+

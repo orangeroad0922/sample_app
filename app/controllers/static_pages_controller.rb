@@ -4,7 +4,7 @@ class StaticPagesController < ApplicationController
 
   def help
     # can use ApplicationHelper by view_context
-    puts view_context.full_title("aaa")
+#    puts view_context.full_title("aaa")
   end
 
   def about
